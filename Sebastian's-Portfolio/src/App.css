@@ -140,9 +140,9 @@ span.navbar-text {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
-.logoimg {
+
   
-}
+
 
 .navbar-text button {
   font-weight: 700;
@@ -237,10 +237,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+/* Banner */
 
-.App {
-  text-align: center;
-}
+
+
+
+
+
+
+
+
 
 
 @media (prefers-reduced-motion: no-preference) {
