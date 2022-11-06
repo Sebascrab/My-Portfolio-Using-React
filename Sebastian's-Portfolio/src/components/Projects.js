@@ -1,7 +1,7 @@
 
 
 // import Nav from 'react-bootstrap/Nav';
-import { Col, Container, Tab, Row } from "react-bootstrap"
+import { Col, Container, Tab, Row, } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCards";
 import Nav from 'react-bootstrap/Nav';
 
@@ -16,42 +16,42 @@ import jsGame from '../assets/images/ProjectImages/Sebastian-JS-Game.png'
 
 export const Projects = () => {
 
-    // const groupProjects = [
-    //     {
-    //         title: "Your Corner EV",
-    //         description: "EV station finder",
-    //         imgUrl: cornerEV,
-    //     },
-    //     {
-    //         title: "Crowd Control",
-    //         description: "Customer Managment System",
-    //         imgUrl: crowdControl,
-    //     },
-    //     {
-    //         title: "Weather Forecast App",
-    //         description: "Weather forecast for any city",
-    //         imgUrl: weatherAPI,
-    //     },
+    const groupProjects = [
+        {
+            title: "Your Corner EV",
+            description: "EV station finder",
+            imgUrl: cornerEV,
+        },
+        {
+            title: "Crowd Control",
+            description: "Customer Managment System",
+            imgUrl: crowdControl,
+        },
+        {
+            title: "Weather Forecast App",
+            description: "Weather forecast for any city",
+            imgUrl: weatherAPI,
+        },
         
-    // ];
+    ];
 
-    // const personalProjects = [
-    //     {
-    //         title: "Team Profile Generator",
-    //         description: "Application to track employee information",
-    //         imgUrl: teamProfile,
-    //     },
-    //     {
-    //         title: "Work Day Scheduler",
-    //         description: "Scheduler for your own work day",
-    //         imgUrl: workDay,
-    //     },
-    //     {
-    //         title: "Javascript Game",
-    //         description: "Multiple choice javascript game",
-    //         imgUrl: jsGame
-    //     },
-    // ];
+    const personalProjects = [
+        {
+            title: "Team Profile Generator",
+            description: "Application to track employee information",
+            imgUrl: teamProfile,
+        },
+        {
+            title: "Work Day Scheduler",
+            description: "Scheduler for your own work day",
+            imgUrl: workDay,
+        },
+        {
+            title: "Javascript Game",
+            description: "Multiple choice javascript game",
+            imgUrl: jsGame
+        },
+    ];
 
     return (
         <section className="project" id="project">
@@ -75,12 +75,30 @@ export const Projects = () => {
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <Row>
-                                       
+                                        {
+                                            groupProjects.map((project, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
+                                                )
+                                            })
+                                        }
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
                                 <Row>
-                                        
+                                        {
+                                            personalProjects.map((project, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
+                                                )
+                                            })
+                                        }
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third"></Tab.Pane>
