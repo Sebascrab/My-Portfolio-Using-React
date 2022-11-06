@@ -1,13 +1,17 @@
 
 
+import Nav from 'react-bootstrap/Nav';
+import { Col, Container, Tab } from 'react-bootstrap'
+import { ProjectCard } from "./ProjectCard";
+
 import cornerEV from '../assets/images/ProjectImages/Your-Corner-EV.png'
 import crowdControl from '../assets/images/ProjectImages/Crowd-Control.png'
 import weatherAPI from '../assets/images/ProjectImages/Weather-API-Screenshot.png'
 import teamProfile from '../assets/images/ProjectImages/Team-Profile-Generator-With-Node.png'
 import workDay from '../assets/images/ProjectImages/Sebastian-Work-Day-Scheduler.png'
 import jsGame from '../assets/images/ProjectImages/Sebastian-JS-Game.png'
-import Nav from 'react-bootstrap/Nav';
-import { Tab } from 'react-bootstrap'
+
+
 
 export const Projects = () => {
 
@@ -69,7 +73,10 @@ export const Projects = () => {
                                         {
                                             projects.map((project, index) => {
                                                 return (
-                                                    <p>{project.title}</p>
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
                                                 )
                                             })
                                         }
