@@ -12,7 +12,7 @@ import githubIMG from "../assets/images/github-original-wordmark.svg"
 import npmIMG from "../assets/images/npm-original-wordmark.svg"
 import expIMG from "../assets/images/express-original-wordmark.svg"
 import mongoIMG from "../assets/images/mongodb-plain-wordmark.svg"
-import skillsBackgroundImg from "../assets/images/Home-Portfolio.jpg"
+
 
 
 

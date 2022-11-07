@@ -21,16 +21,19 @@ export const Projects = () => {
             title: "Your Corner EV",
             description: "EV station finder",
             imgUrl: cornerEV,
+            githubUrl: "https://github.com/Sebascrab/Your-Corner-EV-Group-Project-1"
         },
         {
             title: "Crowd Control",
             description: "Customer Managment System",
             imgUrl: crowdControl,
+            githubUrl: "https://github.com/Sebascrab/Crowd-Cntrl-Group-Project-2"
         },
         {
-            title: "Weather Forecast App",
+            title: "Weather Forecasting App",
             description: "Weather forecast for any city",
             imgUrl: weatherAPI,
+            githubUrl: "https://github.com/Sebascrab/Weather-Forecast-With-OpenWeather-API"
         },
         
     ];
@@ -40,16 +43,19 @@ export const Projects = () => {
             title: "Team Profile Generator",
             description: "Application to track employee information",
             imgUrl: teamProfile,
+            githubUrl: "https://github.com/Sebascrab/Team-Generator-With-Node.js"
         },
         {
             title: "Work Day Scheduler",
             description: "Scheduler for your own work day",
             imgUrl: workDay,
+            githubUrl: "https://github.com/Sebascrab/Work-Day-Scheduler-Using-Third-Party-APIs"
         },
         {
             title: "Javascript Game",
             description: "Multiple choice javascript game",
-            imgUrl: jsGame
+            imgUrl: jsGame,
+            githubUrl: "https://github.com/Sebascrab/Multiple-Choice-Javascript-Game"
         },
     ];
 
