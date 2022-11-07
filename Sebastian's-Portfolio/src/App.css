@@ -482,6 +482,8 @@ z-index: 0;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 400px;
+  width: 450px;
 }
 
 .proj-imgbx::before {
@@ -514,6 +516,12 @@ z-index: 0;
   opacity: 1;
 }
 
+.proj-imgbx img {
+  width: 95%;
+  height: 80%;
+  /* overflow: hidden; */
+}
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
@@ -536,6 +544,7 @@ z-index: 0;
   right: 0;
   z-index: -4;
 }
+
 
 
 /* Contact */
