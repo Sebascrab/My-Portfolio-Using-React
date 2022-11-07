@@ -21,19 +21,22 @@ export const Projects = () => {
             title: "Your Corner EV",
             description: "EV station finder",
             imgUrl: cornerEV,
-            githubUrl: "https://github.com/Sebascrab/Your-Corner-EV-Group-Project-1"
+            githubUrl: "https://github.com/Sebascrab/Your-Corner-EV-Group-Project-1",
+            deployedUrl: "https://sebascrab.github.io/Your-Corner-EV-Group-Project-1/"
         },
         {
             title: "Crowd Control",
             description: "Customer Managment System",
             imgUrl: crowdControl,
-            githubUrl: "https://github.com/Sebascrab/Crowd-Cntrl-Group-Project-2"
+            githubUrl: "https://github.com/Sebascrab/Crowd-Cntrl-Group-Project-2",
+            deployedUrl: "https://crowdcntrl.herokuapp.com/"
         },
         {
             title: "Weather Forecasting App",
             description: "Weather forecast for any city",
             imgUrl: weatherAPI,
-            githubUrl: "https://github.com/Sebascrab/Weather-Forecast-With-OpenWeather-API"
+            githubUrl: "https://github.com/Sebascrab/Weather-Forecast-With-OpenWeather-API",
+            deployedUrl: "https://sebascrab.github.io/Weather-Forecast-With-OpenWeather-API/"
         },
         
     ];
@@ -43,19 +46,22 @@ export const Projects = () => {
             title: "Team Profile Generator",
             description: "Application to track employee information",
             imgUrl: teamProfile,
-            githubUrl: "https://github.com/Sebascrab/Team-Generator-With-Node.js"
+            githubUrl: "https://github.com/Sebascrab/Team-Generator-With-Node.js",
+            deployedUrl: "https://drive.google.com/file/d/19Sz39bsVk171Iejn_dEj8CkpUQwoyqr-/view"
         },
         {
             title: "Work Day Scheduler",
             description: "Scheduler for your own work day",
             imgUrl: workDay,
-            githubUrl: "https://github.com/Sebascrab/Work-Day-Scheduler-Using-Third-Party-APIs"
+            githubUrl: "https://github.com/Sebascrab/Work-Day-Scheduler-Using-Third-Party-APIs",
+            deployedUrl: "https://note-taker-app-alexander-tisch.herokuapp.com/"
         },
         {
             title: "Javascript Game",
             description: "Multiple choice javascript game",
             imgUrl: jsGame,
-            githubUrl: "https://github.com/Sebascrab/Multiple-Choice-Javascript-Game"
+            githubUrl: "https://github.com/Sebascrab/Multiple-Choice-Javascript-Game",
+            deployedUrl: "https://sebascrab.github.io/Multiple-Choice-Javascript-Game/"
         },
     ];
 

@@ -1,7 +1,7 @@
 import { Col } from "react-bootstrap";
 // import { ProjectCard } from "./ProjectCards"
 
-export const ProjectCard = ({ title, description, imgUrl, githubUrl }) => {
+export const ProjectCard = ({ title, description, imgUrl, githubUrl, deployedUrl }) => {
 
     return (
         <Col size={12} sm={6} md={4}>
@@ -11,6 +11,7 @@ export const ProjectCard = ({ title, description, imgUrl, githubUrl }) => {
                     <h4>{title}</h4>
                     <span>{description}</span><br></br>
                     <a href={githubUrl} target="_blank">GitHub Link</a>
+                    <a href={deployedUrl} target="_blank">GitHub Link</a>
                 </div>
             </div>
         </Col>
