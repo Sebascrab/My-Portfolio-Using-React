@@ -10,8 +10,8 @@ export const ProjectCard = ({ title, description, imgUrl, githubUrl, deployedUrl
                 <div className="proj-txtx">
                     <h4>{title}</h4>
                     <span>{description}</span><br></br>
-                    <a href={githubUrl} target="_blank">GitHub Link</a>
-                    <a href={deployedUrl} target="_blank">GitHub Link</a>
+                    <a href={githubUrl} target="_blank">GitHub Link</a><br></br>
+                    <a href={deployedUrl} target="_blank">Deployed Link</a>
                 </div>
             </div>
         </Col>

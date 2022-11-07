@@ -9,7 +9,7 @@ import cornerEV from '../assets/images/ProjectImages/Your-Corner-EV.png'
 import crowdControl from '../assets/images/ProjectImages/Crowd-Control.png'
 import weatherAPI from '../assets/images/ProjectImages/Weather-API-Screenshot.png'
 import teamProfile from '../assets/images/ProjectImages/Team-Profile-Generator-With-Node.png'
-import workDay from '../assets/images/ProjectImages/Sebastian-Work-Day-Scheduler.png'
+import workDay from '../assets/images/ProjectImages/Work-Day-Scheduler.png'
 import jsGame from '../assets/images/ProjectImages/Sebastian-JS-Game.png'
 
 
@@ -54,7 +54,7 @@ export const Projects = () => {
             description: "Scheduler for your own work day",
             imgUrl: workDay,
             githubUrl: "https://github.com/Sebascrab/Work-Day-Scheduler-Using-Third-Party-APIs",
-            deployedUrl: "https://note-taker-app-alexander-tisch.herokuapp.com/"
+            deployedUrl: "https://sebascrab.github.io/Work-Day-Scheduler-Using-Third-Party-APIs/"
         },
         {
             title: "Javascript Game",
