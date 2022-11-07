@@ -47,8 +47,8 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={githubIcon} alt="githubIcon" /></a>
-                            <a href="#"><img src={linkedinIcon} alt="linkedinIcon" /></a>
+                            <a href="https://github.com/Sebascrab" target="_blank"><img src={githubIcon} alt="githubIcon" /></a>
+                            <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a" target="_blank"><img src={linkedinIcon} alt="linkedinIcon" /></a>
                         </div>
                         <button href="#connect" className="vvd" onClick={() => console.log('connect')}><span>Contact Me</span></button>
                     </span>

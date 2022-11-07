@@ -46,6 +46,10 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-center">
+                <Col xs={12} md={6} xl={5}>
+                <div class="banner-name">Sebastian Tischner</div>
+                        <img src={headerImg} alt="Header IMG" />
+                    </Col>
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`About Me: `}<span className="wrap">{text}</span></h1>
@@ -55,9 +59,7 @@ export const Banner = () => {
                         </p>
                         <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header IMG" />
-                    </Col>
+                    
                 </Row>
             </Container>
         </section>
