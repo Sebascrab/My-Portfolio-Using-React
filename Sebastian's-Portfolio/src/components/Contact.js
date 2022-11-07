@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-// import astroImg from "../assets/images/johnny_automatic_spacewalk.svg";
+import astroImg from "../assets/images/pngegg1.png";
 
 
 export const Contact = () => {
