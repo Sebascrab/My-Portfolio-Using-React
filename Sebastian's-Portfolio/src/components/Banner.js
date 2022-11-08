@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle} from "react-bootstrap-icons";
 import headerImg from "../assets/images/Space-Fighter.svg";
 import { useState, useEffect } from "react";
+import profilePic from "../assets/images/Sebas-dog.jpeg"
 
 
 
@@ -48,16 +49,22 @@ export const Banner = () => {
                 <Row className="align-items-center">
                 <Col xs={12} md={6} xl={5}>
                     <div class="banner-name">Sebastian Tischner</div>
+                        <div className="plane">
                         <img src={headerImg} alt="Header IMG" />
+                        </div>
                     </Col>
-                    <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Portfolio</span>
+                    <Col xs={12} md={6} xl={7} className="right-col">
+                        <div className="profile">
+                        <img src={profilePic}></img>
+                        </div>
+                        <div className="banner-info">
                         <h1>{`About Me: `}<span className="wrap">{text}</span></h1>
                         <p>Front-end Web Developer capitalizing on a strong sales background willing to ask the right questions, and come up with the solutions necessary to build a great user experience.
                              I greatly enjoy web development and have recently earned a certificate in full stack development from the University of Utah’s coding bootcamp.
                               During my education, I have learned strong skils on front-end web languages such as: HTML5, CSS, Javascript, and React. My favorite thing about web development
-                              and coding is the problem solving aspect. Similar to sales, there is an enormous amount of gratification in problem solving, and creation
+                              and coding is the problem solving aspect. Similar to sales, there is an enormous amount of gratification in problem solving, and creating projects.
                         </p>
+                        </div>
                     </Col>
                 </Row>
             </Container>

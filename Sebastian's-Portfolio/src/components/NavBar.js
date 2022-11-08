@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import logo from '../assets/images/Logo-150px1.png'
 import githubIcon from '../assets/images/GitHub-Mark-Light-32px.png'
 import linkedinIcon from '../assets/images/linkedin-32.png'
+import DropdownItem from "react-bootstrap/esm/DropdownItem";
 
 
 export const NavBar = () => {
@@ -28,23 +29,16 @@ export const NavBar = () => {
         setActiveLink(value)
     }
 
-    const dropDown = () => {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
+    const DropdownItem = (props) => {
+        return(
+            <li className="dropdownItem">
+                <p>Sebastian Tischner</p>
+                
+            </li>
+        )
+    }
+    
       
-      
-      window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-          let dropdowns = document.getElementsByClassName("dropdown-content");
-          let i;
-          for (i = 0; i < dropdowns.length; i++) {
-            let openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
-            }
-          }
-        }
-      }
 
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
@@ -68,7 +62,7 @@ export const NavBar = () => {
                             <a href="https://github.com/Sebascrab" target="_blank"><img src={githubIcon} alt="githubIcon" /></a>
                             <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a"><img src={linkedinIcon} alt="linkedinIcon" /></a>
                         </div>
-                        <button href="#connect" className="vvd" onClick={() => console.log('connect')}><span>Contact Me</span></button>
+                        <button><span>Contact Me</span></button>
                     </span>
                 </Navbar.Collapse>
             </Container>

@@ -251,6 +251,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
   
+  
 }
 .banner-name {
   font-weight: 700;
@@ -263,20 +264,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(90.21deg, rgba(54, 170, 141, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
 }
 
-
-.banner .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 10px 10px;
+.banner .banner-info {
   background: linear-gradient(90.21deg, rgba(54, 170, 141, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(225, 225, 225, 0.5);
-  font-size: 40px;
-  margin: -70px 0px 20px 10px;
-  border-radius: 5px;
   display: inline-block;
+  border-radius: 8px;
+  padding: 5px;
+}
+
  
 
-}
+
 
 .banner h1 {
   font-size: 45px;
@@ -324,8 +322,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 } */
 
 
-.banner img {
+.banner .plane img {
   animation: updown 3s linear infinite;
+
+}
+
+.banner .profile img{
+  border: transparent;
+
+  border-radius: 100%;
+  height: 250px;
+  margin-bottom: 30px;
+  
+}
+
+.banner .right-col {
+  margin-top: -80px;
 
 }
 
