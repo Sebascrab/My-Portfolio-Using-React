@@ -47,7 +47,7 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                 <Col xs={12} md={6} xl={5}>
-                <div class="banner-name">Sebastian Tischner</div>
+                    <div class="banner-name">Sebastian Tischner</div>
                         <img src={headerImg} alt="Header IMG" />
                     </Col>
                     <Col xs={12} md={6} xl={7}>
@@ -55,11 +55,10 @@ export const Banner = () => {
                         <h1>{`About Me: `}<span className="wrap">{text}</span></h1>
                         <p>Front-end Web Developer capitalizing on a strong sales background willing to ask the right questions, and come up with the solutions necessary to build a great user experience.
                              I greatly enjoy web development and have recently earned a certificate in full stack development from the University of Utah’s coding bootcamp.
-                              During my education, I have learned strong skils on front-end web languages such as: HTML5, CSS, Javascript, and React.
+                              During my education, I have learned strong skils on front-end web languages such as: HTML5, CSS, Javascript, and React. My favorite thing about web development
+                              and coding is the problem solving aspect. Similar to sales, there is an enormous amount of gratification in problem solving, and creation
                         </p>
-                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
                     </Col>
-                    
                 </Row>
             </Container>
         </section>

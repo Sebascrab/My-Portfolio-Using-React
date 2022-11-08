@@ -238,6 +238,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+
+
 /* Banner */
 
 
@@ -255,20 +257,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.1em;
   font-size: 50px;
   border: solid;
-  border-radius: 10%;
+  border-radius: 5px;
   padding: 8px 10px;
   margin: -70px 0px 20px 10px;
   background: linear-gradient(90.21deg, rgba(54, 170, 141, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
 }
 
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
+  padding: 10px 10px;
   background: linear-gradient(90.21deg, rgba(54, 170, 141, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(225, 225, 225, 0.5);
-  font-size: 20px;
-  margin-bottom: 16px;
+  font-size: 40px;
+  margin: -70px 0px 20px 10px;
+  border-radius: 5px;
   display: inline-block;
  
 
@@ -289,10 +293,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-.banner button {
+/* .banner button {
   color: #fff;
   background: linear-gradient(90.21deg, rgba(54, 170, 141, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   font-weight: 700;
@@ -317,7 +321,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner button:hover svg {
   margin-left: 50px;
-}
+} */
 
 
 .banner img {

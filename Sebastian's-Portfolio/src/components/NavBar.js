@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav} from  "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import { useState, useEffect } from "react";
 
 import logo from '../assets/images/Logo-150px1.png'
@@ -28,8 +28,26 @@ export const NavBar = () => {
         setActiveLink(value)
     }
 
+    const dropDown = () => {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          let dropdowns = document.getElementsByClassName("dropdown-content");
+          let i;
+          for (i = 0; i < dropdowns.length; i++) {
+            let openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+        <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
                     <img class="logoimg" src={logo} alt="Logo" />
@@ -48,7 +66,7 @@ export const NavBar = () => {
                     <span className="navbar-text">
                         <div className="social-icon">
                             <a href="https://github.com/Sebascrab" target="_blank"><img src={githubIcon} alt="githubIcon" /></a>
-                            <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a" target="_blank"><img src={linkedinIcon} alt="linkedinIcon" /></a>
+                            <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a"><img src={linkedinIcon} alt="linkedinIcon" /></a>
                         </div>
                         <button href="#connect" className="vvd" onClick={() => console.log('connect')}><span>Contact Me</span></button>
                     </span>

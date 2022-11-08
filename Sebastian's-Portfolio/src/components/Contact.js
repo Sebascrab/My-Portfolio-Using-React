@@ -51,9 +51,7 @@ export const Contact = () => {
         <section className="contact" id="connect">
             <Container>
                 <Row className="align-items-center">
-                    <Col md={6}>
-                        <img src={astroImg} alt="astronaut" />
-                    </Col>
+                    
                     <Col md={6}>
                         <h2>Reach Out!</h2>
                         <form onSubmit={handleSubmit}>
@@ -84,6 +82,9 @@ export const Contact = () => {
                                 }
                             </Row>
                         </form>
+                    </Col>
+                    <Col md={6}>
+                        <img src={astroImg} alt="astronaut" />
                     </Col>
                 </Row>
             </Container>
