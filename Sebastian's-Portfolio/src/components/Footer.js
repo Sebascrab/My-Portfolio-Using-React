@@ -14,14 +14,14 @@ export const Footer = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col size={12} sm={6}>
-                        <img class="footer-logo" src={logo} alt="Logo"/>
+                        <img className="footer-logo" src={logo} alt="Logo"/>
                     </Col>
                     <Col size={12} sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
                             <a href="https://github.com/Sebascrab" target="_blank"><img src={github} alt="github logo" /></a>
                             <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a" target="_blank"><img src={linkedin} alt="linkedin logo" /></a>
                         </div>
-                        <p>CopyRight 2022. All Rights Reserved By <a href="https://github.com/Sebascrab"> Sebastian Tischner</a></p>
+                        <p>CopyRight 2022. All Rights Reserved By <a href="https://github.com/Sebascrab" target="_blank"> Sebastian Tischner</a></p>
                     </Col>
                 </Row>
             </Container>

@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle} from "react-bootstrap-icons";
 import headerImg from "../assets/images/Space-Fighter.svg";
 import { useState, useEffect } from "react";
 import profilePic from "../assets/images/Sebas-dog.jpeg"
@@ -61,13 +60,13 @@ export const Banner = () => {
                         <h1>{`About Me: `}<span className="wrap">{text}</span></h1>
                         <p>Front-end Web Developer capitalizing on a strong sales background willing to ask the right questions, and come up with the solutions necessary to build a great user experience.
                              I greatly enjoy web development and have recently earned a certificate in full stack development from the University of Utah’s coding bootcamp.
-                              During my education, I have learned strong skils on front-end web languages such as: HTML5, CSS, Javascript, and React. My favorite thing about web development
+                              During my education, I have learned strong skills on front-end web languages such as: HTML5, CSS, Javascript, and React. Back-end frameworks that I have also learned include: mySQL, Node.js, Sequelize, Express.js and more.  My favorite thing about web development
                               and coding is the problem solving aspect. Similar to sales, there is an enormous amount of gratification in problem solving, and creating projects.
                         </p>
                         </div>
                     </Col>
                 </Row>
-            </Container>
+            </Container> 
         </section>
 
     )
