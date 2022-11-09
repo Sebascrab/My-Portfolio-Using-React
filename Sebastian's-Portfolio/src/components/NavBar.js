@@ -1,3 +1,5 @@
+
+// imports for react and images
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useState, useEffect } from "react";
 
@@ -7,6 +9,8 @@ import linkedinIcon from '../assets/images/linkedin-32.png'
 import DropdownItem from "react-bootstrap/esm/DropdownItem";
 
 
+
+// code for scroll and also for transparent nav
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, seScrolled] = useState(false);
@@ -29,14 +33,6 @@ export const NavBar = () => {
         setActiveLink(value)
     }
 
-    const DropdownItem = (props) => {
-        return(
-            <li className="dropdownItem">
-                <p>Sebastian Tischner</p>
-                
-            </li>
-        )
-    }
     
       
 
@@ -62,7 +58,7 @@ export const NavBar = () => {
                             <a href="https://github.com/Sebascrab" target="_blank"><img src={githubIcon} alt="githubIcon" /></a>
                             <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a" target="_blank"><img src={linkedinIcon} alt="linkedinIcon" /></a>
                         </div>
-                        <button><span>Contact Me</span></button>
+                        {/* <button><span>Contact Me</span></button> */}
                     </span>
                 </Navbar.Collapse>
             </Container>

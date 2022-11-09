@@ -62,7 +62,7 @@ h6 {
 }
 
 
-/* nav */
+/* ---------NAV--------- */
 
 nav.navbar {
   padding: 1px 10px;
@@ -240,7 +240,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 
-/* Banner */
+/* ---------BANNER--------- */
 
 
 .banner {
@@ -274,9 +274,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
  
-
-
-
 .banner h1 {
   font-size: 45px;
   font-weight: 700;
@@ -295,34 +292,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   margin-top: -15px;
 }
-
-/* .banner button {
-  color: #fff;
-  background: linear-gradient(90.21deg, rgba(54, 170, 141, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  font-weight: 700;
-  font-size: 25px;
-  margin-top: 60px;
-  padding: 5px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
-  border-radius: 5px;
-  border: 1px solid rgba(225, 225, 225, 0.5);
-
-}
-
-.banner button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.1s ease-in-out;
-  line-height: 1;
-
-}
-
-.banner button:hover svg {
-  margin-left: 50px;
-} */
-
 
 .banner .plane img {
   animation: updown 3s linear infinite;
@@ -343,7 +312,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 }
 
-/* Resume--------------------------------- */
+/* ---------RESUME--------- */
 
 .resume {
   padding: 0 0 50px ;
@@ -374,6 +343,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 8px;
   padding: 5px;
   border: solid;
+  margin-top: 80px;
 }
 .resume .visit-resume h4 {
   padding: 20px;
@@ -402,7 +372,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-/* skills page */
+/* ---------SKILLS--------- */
 
 .skill {
   padding: 0 0 50px ;
@@ -456,7 +426,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 
-/* Projects */
+/* ---------Projects--------- */
 
 .project {
   position: relative;
@@ -609,7 +579,6 @@ z-index: 0;
 .proj-imgbx img {
   width: 95%;
   height: 80%;
-  /* overflow: hidden; */
 }
 
 .proj-txtx h4 {
@@ -640,7 +609,7 @@ z-index: 0;
 
 
 
-/* Contact */
+/* ---------Contact--------- */
 
 .contact {
   position: relative;
@@ -723,7 +692,9 @@ z-index: 0;
 }
 
 
-/* footer */
+
+
+
 
 
 

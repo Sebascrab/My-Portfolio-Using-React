@@ -4,6 +4,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import astroImg from "../assets/images/pngegg1.png";
 
 
+
+
+// for contact information:
 export const Contact = () => {
 
     const formInitialDetails = {
@@ -47,7 +50,7 @@ export const Contact = () => {
         }
 
     return (
-
+        // html for contact page
         <section className="contact" id="connect">
             <Container>
                 <Row className="align-items-center">

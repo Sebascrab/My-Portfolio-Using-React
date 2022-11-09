@@ -1,3 +1,5 @@
+
+// imports for react-boostrap and images:
 import { Col, Container, Row } from "react-bootstrap"
 import logo from "../assets/images/Logo-150px1.png"
 import github from "../assets/images/GitHub-Mark-Light-32px.png"
@@ -8,7 +10,7 @@ import linkedin from "../assets/images/linkedin-32.png"
 
 
 export const Footer = () => {
-
+    // html for footer
     return (
         <footer className="footer">
             <Container>

@@ -15,7 +15,7 @@ export const Resume = () => {
                         <h2>Resume</h2>
                         <div className="resume-box">
                             <div className="visit-resume">
-                                <h4>Click the link down below to view my resume.</h4>
+                                <h4>Click down below to view my resume.</h4>
                                 <a href="https://sebastian-tischner-resume-2022.my.canva.site/" target="_blank">
                                 <img src={resumeImg} />
                                 </a>

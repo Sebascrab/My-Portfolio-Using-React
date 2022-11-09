@@ -13,7 +13,7 @@ import workDay from '../assets/images/ProjectImages/Work-Day-Scheduler.png'
 import jsGame from '../assets/images/ProjectImages/Sebastian-JS-Game.png'
 
 
-
+// objects storing projects info:
 export const Projects = () => {
 
     const groupProjects = [
@@ -81,7 +81,7 @@ export const Projects = () => {
                                     <Nav.Link eventKey="second">My Projects</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                                    <Nav.Link eventKey="third">More Projects</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>
