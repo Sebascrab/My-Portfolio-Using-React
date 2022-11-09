@@ -145,7 +145,7 @@ span.navbar-text {
 
 
 
-.navbar-text button {
+.navbar-text .drop {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
@@ -157,11 +157,11 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 
-.navbar-text button span {
+.navbar-text .drop {
   z-index: 1;
 }
 
-.navbar-text button::before {
+.navbar-text .drop::before {
   content: "";
   width: 0%;
   height: 100%;
@@ -173,11 +173,13 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 
-.navbar-text button:hover {
+.navbar-text .drop:hover {
   color: #121212;
 }
 
-.navbar-text button:hover::before {
+
+
+.navbar-text .drop:hover::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -441,7 +443,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 
-
+.project-info {
+  background: rgba(39, 36, 36, 0.6);
+  border-radius: 64px;
+  
+  
+}
 
 .project h2 {
   font-size: 45px;
@@ -468,13 +475,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(225, 225, 225 / 10%);
+  /* background-color: rgb(225, 225, 225 / 10%); */
   overflow: hidden;
+  border: solid;
+  background: rgba(58, 56, 56, 0.6);
+  border-radius: 64px;
 
 }
 
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%
+  width: 33.33333%;
+  border: solid;
 
 }
 

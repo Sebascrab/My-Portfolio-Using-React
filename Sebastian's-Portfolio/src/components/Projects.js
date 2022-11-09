@@ -4,6 +4,7 @@
 import { Col, Container, Tab, Row, } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCards";
 import Nav from 'react-bootstrap/Nav';
+import Image from 'react-bootstrap/Image'
 
 import cornerEV from '../assets/images/ProjectImages/Your-Corner-EV.png'
 import crowdControl from '../assets/images/ProjectImages/Crowd-Control.png'
@@ -70,8 +71,10 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
+                    <div className="project-info">
                         <h2>Projects</h2>
                         <p>Here are some of the projects that I have worked on! Feel free to see the applicaitons in action, or to look over the repository!</p>
+                        </div>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
