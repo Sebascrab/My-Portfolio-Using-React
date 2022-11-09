@@ -349,11 +349,51 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px ;
   position: relative;
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 200px 0 100px 0;
   background-image: url(./assets/images/Resume-Back.jpg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.resume h2 {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-size: 50px;
+  border: solid;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin: -50px 0px 50px 10px;
+  background: linear-gradient(90.21deg, rgba(39, 103, 87, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+}
+
+.resume .resume-box {
+  background: linear-gradient(90.21deg, rgba(8, 57, 44, 0.5) -5.91%, rgba(71, 36, 225, 0.5) 111.58%);
+  border: 1px solid rgba(225, 225, 225, 0.5);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 5px;
+  border: solid;
+}
+.resume .visit-resume h4 {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 30px;
+
+}
+
+.resume .visit-resume img {
+  height: 100px;
+}
+
+.resume .download-resume h4 {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.resume .download-resume img {
+  height: 100px;
 }
 
 .resume .rover img {

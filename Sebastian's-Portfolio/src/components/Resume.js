@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import roverImg from "../assets/images/LunarRover.png"
+import resumeImg from "../assets/images/Sebastian-Tischner-Resume.png"
 
 
 
@@ -15,9 +16,13 @@ export const Resume = () => {
                         <div className="resume-box">
                             <div className="visit-resume">
                                 <h4>Click the link down below to view my resume.</h4>
+                                <a href="https://sebastian-tischner-resume-2022.my.canva.site/" target="_blank">
+                                <img src={resumeImg} />
+                                </a>
                             </div>
                             <div className="download-resume">
                                 <h4>If you'd like to download it, there's a link for that too!</h4>
+                                <a href={resumeImg} download="Sebastian Tischner Resume"><img src={resumeImg} /></a>
                             </div>
                         </div>
                     </Col>

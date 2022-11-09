@@ -60,7 +60,7 @@ export const NavBar = () => {
                     <span className="navbar-text">
                         <div className="social-icon">
                             <a href="https://github.com/Sebascrab" target="_blank"><img src={githubIcon} alt="githubIcon" /></a>
-                            <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a"><img src={linkedinIcon} alt="linkedinIcon" /></a>
+                            <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a" target="_blank"><img src={linkedinIcon} alt="linkedinIcon" /></a>
                         </div>
                         <button><span>Contact Me</span></button>
                     </span>
