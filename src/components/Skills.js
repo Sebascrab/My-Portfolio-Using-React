@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
+// imports for all of the svg's on the skills
 import htmlIMG from "../assets/images/html5-plain-wordmark.svg"
 import cssIMG from "../assets/images/css3-plain-wordmark.svg"
 import jsIMG from "../assets/images/javascript-original.svg"
@@ -21,7 +21,7 @@ import mongoIMG from "../assets/images/mongodb-plain-wordmark.svg"
 
 
 export const Skills = () => {
-
+// responsiveness set up for the carousel
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.

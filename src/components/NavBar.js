@@ -45,6 +45,7 @@ export const NavBar = () => {
                 <Navbar.Brand href="#home">
                     <img class="logoimg" src={logo} alt="Logo" />
                 </Navbar.Brand>
+                {/* nav elements */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
                 </Navbar.Toggle>
@@ -56,13 +57,14 @@ export const NavBar = () => {
                         <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                         <Nav.Link href="#connect" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
                     </Nav>
+                    {/* Icons */}
                     <span className="navbar-text">
                         <div className="social-icon">
                             <a href="https://github.com/Sebascrab" target="_blank"><img src={githubIcon} alt="githubIcon" /></a>
                             <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a" target="_blank"><img src={linkedinIcon} alt="linkedinIcon" /></a>
                         </div>
+                        {/* dropdown menu for contact */}
                         <Dropdown
-                        
                         align="end"
                         title="Dropdown end"
                         id="dropdown-menu-align-end">
@@ -75,7 +77,7 @@ export const NavBar = () => {
                                 <Dropdown.Item><BsMailbox2 />  Email: alexanders.tischner@outlook.com</Dropdown.Item>
                             </Dropdown.Menu> 
                         </Dropdown>
-                        {/* <button><span>Contact Me</span></button> */}
+                        
                     </span>
                 </Navbar.Collapse>
             </Container>

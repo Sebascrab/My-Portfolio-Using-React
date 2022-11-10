@@ -2,7 +2,7 @@ import { Col } from "react-bootstrap";
 // import { ProjectCard } from "./ProjectCards"
 
 export const ProjectCard = ({ title, description, imgUrl, githubUrl, deployedUrl }) => {
-
+// project cards that are mapped into project.js
     return (
         <Col size={12} sm={6} md={4}>
             <div className="proj-imgbx">

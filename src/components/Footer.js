@@ -23,7 +23,7 @@ export const Footer = () => {
                             <a href="https://github.com/Sebascrab" target="_blank"><img src={github} alt="github logo" /></a>
                             <a href="https://www.linkedin.com/in/sebastian-tischner-%E6%9E%97%E5%81%BC%E8%8A%83-069b519a" target="_blank"><img src={linkedin} alt="linkedin logo" /></a>
                         </div>
-                        <p>CopyRight 2022. All Rights Reserved By <a href="https://github.com/Sebascrab" target="_blank"> Sebastian Tischner</a></p>
+                        <p>Thank you for visiting my portfolio. Always welcome to feedback on improvments! All rights reserved by:  <a href="https://github.com/Sebascrab" target="_blank">  Sebastian Tischner</a></p>
                     </Col>
                 </Row>
             </Container>
