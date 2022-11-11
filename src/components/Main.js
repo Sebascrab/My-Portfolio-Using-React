@@ -1,6 +1,6 @@
 
 
-import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import {  Route, Redirect, withRouter } from 'react-router-dom';
 
 import { NavBar } from './NavBar';
 import { Banner } from './Banner';
@@ -17,17 +17,15 @@ const Main = () => {
 
         <div className='Main'>
             <NavBar />
-            <Switch>
-                <Route expect path='/Banner' component={Banner} />
-                <Route expect path='/Resume' component={Resume} />
-                <Route expect path='/Skills' component={Skills} />
-                <Route expect path='/Projects' component={Projects} />
-                <Route expect path='/Contact' component={Contact} />
+                <Route  path='/Banner' element={<Banner/>} />
+                <Route  path='/Resume' element={<Resume/>} />
+                <Route  path='/Skills' element={<Skills/>} />
+                <Route  path='/Projects' element={<Projects/>} />
+                <Route  path='/Contact' element={<Contact/>} />
                 <Redirect to='/Banner' />
-            </Switch>
             <Footer />
         </div>
     )
 }
 
-export default withRouter(Main);
+export default (Main);
