@@ -18,11 +18,11 @@ const Main = () => {
         <div className='Main'>
             <NavBar />
             <Switch>
-                <Route path='/Banner' component={Banner} />
-                <Route path='/Resume' component={Resume} />
-                <Route path='/Skills' component={Skills} />
-                <Route path='/Projects' component={Projects} />
-                <Route path='/Contact' component={Contact} />
+                <Route exact path='/Banner' component={Banner} />
+                <Route exact path='/Resume' component={Resume} />
+                <Route exact path='/Skills' component={Skills} />
+                <Route exact path='/Projects' component={Projects} />
+                <Route exact path='/Contact' component={Contact} />
                 <Redirect to='/Banner' />
             </Switch>
             <Footer />
