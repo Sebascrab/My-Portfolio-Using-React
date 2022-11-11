@@ -18,20 +18,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
+    
       <BrowserRouter>
+      <div className="App">
         <NavBar />
         <Routes>
-          <Route path='/Banner' element={<Banner />} />
-          <Route path='/Resume' element={<Resume />} />
-          <Route path='/Skills' element={<Skills />} />
-          <Route path='/Projects' element={<Projects />} />
-          <Route path='/Contact' element={<Contact />} />
+          <Route path='/banner' element={<Banner />} />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='/skills' element={<Skills />} />
+          <Route path='/srojects' element={<Projects />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<Banner />} />
         </Routes>
         <Footer />
+        </div>
       </BrowserRouter>
-    </div>
+    
   );
 }
 
