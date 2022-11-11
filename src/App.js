@@ -1,14 +1,8 @@
 
 import './App.css';
 
-
-import { NavBar } from './components/NavBar';
-import { Banner} from './components/Banner';
-import { Resume } from './components/Resume';
-import { Skills } from './components/Skills';
-import { Projects } from './components/Projects';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
+import Main from './components/Main';
+import { BrowserRouter } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,13 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
-      <Resume />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+      <Main/>
+      </BrowserRouter>
     </div>
   );
 }

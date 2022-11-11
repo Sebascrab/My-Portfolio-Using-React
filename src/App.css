@@ -90,7 +90,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  /* padding: 0 25px; */
+  padding: 0 25px;
   padding-left: 80px;
   font-size: 18px;
   opacity: 0.75;
@@ -320,7 +320,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px ;
   position: relative;
   margin-top: 0;
-  padding: 200px 0 100px 0;
+  padding: 300px 0 100px 0;
   background-image: url(./assets/images/Resume-Back.jpg);
   background-position: top center;
   background-size: cover;
@@ -377,10 +377,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* ---------SKILLS--------- */
 
 .skill {
-  padding: 0 0 50px ;
+  padding: 0 0 50px;
   position: relative;
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 400px 0 100px 0;
   background-image: url(./assets/images/Home-Portfolio.jpg);
   background-position: top center;
   background-size: cover;
@@ -433,7 +433,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   position: relative;
   margin-top: 0;
-  padding: 150px 0 100px 0;
+  padding: 250px 0 100px 0;
   background-image: url(./assets/images/Contact-Portfolio.jpg);
   background-position: top center;
   background-size: cover;
@@ -625,7 +625,7 @@ z-index: 0;
 .contact {
   position: relative;
   margin-top: 0;
-  padding: 100px 0 100px 0;
+  padding: 200px 0 100px 0;
   background-image: url(./assets/images/landscape-nature.jpg);
   background-position: top center;
   background-size: cover;
