@@ -2,7 +2,7 @@
 import './App.css';
 
 import Main from './components/Main';
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, HashRouter } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,9 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <Main/>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
