@@ -43,6 +43,8 @@ export const Banner = () => {
             setLoopNum(loopNum + 1); 
             setDelta(250);
         };
+
+        
     }
     return (
         // html for main banner page
@@ -62,10 +64,7 @@ export const Banner = () => {
                         <div className="banner-info">
                             {/* deleting text */}
                         <h1>{`About Me: `}<span className="wrap">{text}</span></h1>
-                        <p>Front-end Web Developer capitalizing on a strong sales background willing to ask the right questions, and come up with the solutions necessary to build a great user experience.
-                             I greatly enjoy web development and have recently earned a certificate in full stack development from the University of Utah’s coding bootcamp.
-                              During my education, I have learned strong skills on front-end web languages such as: HTML5, CSS, Javascript, and React. Back-end frameworks that I have also learned include: mySQL, Node.js, Sequelize, Express.js and more.  My favorite thing about web development
-                              and coding is the problem solving aspect. Similar to sales, there is an enormous amount of gratification in problem solving, and creating projects.
+                        <p>Before learning how to code, I was enjoying a career in automotive sales here in Salt Lake at the Jaguar Land Rover dealership downtown. During my career, I had decided that I would like to learn a new skill set in technology. One that would challenge me, and allow me to work on projects with like minded individuals. Six months ago, I decided to begin my coding journey with the University of Utah's coding bootcamp, and have loved every minute of it! I am looking forward to a career in web development where I am valued as a dependable team member, in a work environment that promotes growth.
                         </p>
                         </div>
                     </Col>

@@ -45,7 +45,7 @@ export const Projects = () => {
     const personalProjects = [
         {
             title: "Team Profile Generator",
-            description: "Application to track employee information",
+            description: "Track employee information",
             imgUrl: teamProfile,
             githubUrl: "https://github.com/Sebascrab/Team-Generator-With-Node.js",
             deployedUrl: "https://drive.google.com/file/d/19Sz39bsVk171Iejn_dEj8CkpUQwoyqr-/view"

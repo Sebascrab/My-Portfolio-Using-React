@@ -86,7 +86,7 @@ nav.navbar a.navbar-brand {
 
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
+nav.navbar .navbar-nav .navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
@@ -240,6 +240,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+@media screen and (max-width: 950px) {
+  .navbar-toggler-icon {
+    margin-right: 60px;
+  }
+}
+
+
 
 
 /* ---------BANNER--------- */
@@ -293,6 +300,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 96%;
   font-weight: 400;
   margin-top: -15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner .plane img {
@@ -312,6 +322,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .right-col {
   margin-top: -80px;
 
+}
+
+
+@media screen and (max-width: 800px) {
+  .profile {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+.right-col  h1 {
+  font-size: 30px;
+}
+}
+
+
+@media screen and (max-width: 1000px ) {
+  .plane{
+    display: none;
+  }
 }
 
 /* ---------RESUME--------- */
@@ -372,6 +402,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 450px;
   animation: updown 3s linear infinite;
 }
+
+@media screen and (max-width: 1250px) {
+  .rover {
+    display: none;
+  }
+}
+
 
 
 /* ---------SKILLS--------- */
@@ -615,6 +652,47 @@ z-index: 0;
   letter-spacing: 0.5px;
   color: #fff;
 }
+
+@media screen and (max-width: 1400px ) {
+  .proj-imgbx {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 1400px ) {
+  .proj-imgbx {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+@media screen and (max-width: 1400px ) {
+  .proj-txtx  h4 {
+    font-size: 30px;
+   margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 1400px ) {
+  .proj-txtx  span {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1400px ) {
+  .proj-txtx  a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .proj-imgbx {
+    margin: auto;
+  }
+}
+
+
 
 
 
