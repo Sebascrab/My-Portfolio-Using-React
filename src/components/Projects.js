@@ -4,7 +4,7 @@
 import { Col, Container, Tab, Row, } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCards";
 import Nav from 'react-bootstrap/Nav';
-import Image from 'react-bootstrap/Image'
+
 
 import cornerEV from '../assets/images/ProjectImages/Your-Corner-EV.png'
 import crowdControl from '../assets/images/ProjectImages/Crowd-Control.png'
@@ -12,7 +12,9 @@ import weatherAPI from '../assets/images/ProjectImages/Weather-API-Screenshot.pn
 import teamProfile from '../assets/images/ProjectImages/Team-Profile-Generator-With-Node.png'
 import workDay from '../assets/images/ProjectImages/Work-Day-Scheduler.png'
 import jsGame from '../assets/images/ProjectImages/Sebastian-JS-Game.png'
-
+import keepUp from '../assets/images/ProjectImages/Keep-Up-Screenshot.png'
+import employeeTracker from '../assets/images/ProjectImages/Employee-Tracker-Screenshot.png'
+import socialAPI from '../assets/images/ProjectImages/Social-Network-API.png'
 
 // objects storing projects info:
 export const Projects = () => {
@@ -27,18 +29,25 @@ export const Projects = () => {
         },
         {
             title: "Crowd Control",
-            description: "Customer Managment System",
+            description: "Customer managment System",
             imgUrl: crowdControl,
             githubUrl: "https://github.com/Sebascrab/Crowd-Cntrl-Group-Project-2",
             deployedUrl: "https://crowdcntrl.herokuapp.com/"
         },
         {
-            title: "Weather Forecasting App",
-            description: "Weather forecast for any city",
-            imgUrl: weatherAPI,
-            githubUrl: "https://github.com/Sebascrab/Weather-Forecast-With-OpenWeather-API",
-            deployedUrl: "https://sebascrab.github.io/Weather-Forecast-With-OpenWeather-API/"
-        },
+            title: "Keep Up",
+            description: "Social media Application",
+            imgUrl: keepUp,
+            githubUrl: "https://github.com/Sebascrab/Group-Project-3",
+            deployedUrl: "https://keep-up-project-3.herokuapp.com/",
+        }
+        // {
+        //     title: "Weather Forecasting App",
+        //     description: "Weather forecast for any city",
+        //     imgUrl: weatherAPI,
+        //     githubUrl: "https://github.com/Sebascrab/Weather-Forecast-With-OpenWeather-API",
+        //     deployedUrl: "https://sebascrab.github.io/Weather-Forecast-With-OpenWeather-API/"
+        // },
         
     ];
 
@@ -65,6 +74,31 @@ export const Projects = () => {
             deployedUrl: "https://sebascrab.github.io/Multiple-Choice-Javascript-Game/"
         },
     ];
+
+    const moreProjects =[
+        {
+            title: "Weather Forecasting App",
+            description: "Weather forecast for any city",
+            imgUrl: weatherAPI,
+            githubUrl: "https://github.com/Sebascrab/Weather-Forecast-With-OpenWeather-API",
+            deployedUrl: "https://sebascrab.github.io/Weather-Forecast-With-OpenWeather-API/"
+        },
+        {
+            title: "mySQL Employee Tracker",
+            description: "Backend employee database",
+            imgUrl: employeeTracker,
+            githubUrl: "https://github.com/Sebascrab/Employee-Tracker-Using-SQL",
+            deployedUrl: "https://drive.google.com/file/d/19Sz39bsVk171Iejn_dEj8CkpUQwoyqr-/view"
+
+        },
+        {
+            title: "Social Network API",
+            description: "noSQL for social media app",
+            imgUrl: socialAPI,
+            githubUrl: "https://github.com/Sebascrab/NoSQL-Social-Network-API-MongoDB",
+            deployed: "https://drive.google.com/file/d/1X0Zm6xT6Q08IVuDT7rrUa7IaJIyS0C-s/view"
+        }
+    ]
 
     return (
         <section className="project" id="project">
@@ -116,7 +150,21 @@ export const Projects = () => {
                                         }
                                     </Row>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="third"></Tab.Pane>
+                                <Tab.Pane eventKey="third">
+                                <Row>
+                                        {
+                                            moreProjects.map((project, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
+                                                )
+                                            })
+                                        }
+                                    </Row>
+                                </Tab.Pane>
+                                
                             </Tab.Content>
                         </Tab.Container>
                     </Col>
