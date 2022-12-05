@@ -96,7 +96,7 @@ export const Projects = () => {
             description: "noSQL for social media app",
             imgUrl: socialAPI,
             githubUrl: "https://github.com/Sebascrab/NoSQL-Social-Network-API-MongoDB",
-            deployed: "https://drive.google.com/file/d/1X0Zm6xT6Q08IVuDT7rrUa7IaJIyS0C-s/view"
+            deployedUrl: "https://drive.google.com/file/d/1X0Zm6xT6Q08IVuDT7rrUa7IaJIyS0C-s/view"
         }
     ]
 
