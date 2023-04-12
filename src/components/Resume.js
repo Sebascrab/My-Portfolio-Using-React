@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import roverImg from "../assets/images/LunarRover.png"
-import resumeImg from "../assets/images/Sebastian-Resume1.png"
+import resumeImg from "../assets/images/Sebastian-Resume2.png"
 import { Link } from 'react-router-dom';
 
 
